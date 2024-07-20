@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "Golos";
+    src: url(../fonts/Golos-Text_Bold.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Golos";
+    src: url(../fonts/Golos-Text_DemiBold.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Golos";
+    src: url(../fonts/Golos-Text_Medium.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Golos";
+    src: url(../fonts/Golos-Text_Regular.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Merriweather";
+    src: url(../fonts/Merriweather-Bold.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Merriweather";
+    src: url(../fonts/Merriweather-Regular.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Medium.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+.hero_bg{
+    position: relative;
+    background-color: rgb(233, 222 , 212, 80%);
+    height: 700px;
+    padding-left: 350px;
+    padding-top: 26px;
+}
+.hero{
+    background-image: url(img/hero_bg.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.logo{
+    margin-bottom: 62px;
+}
+.hero_contant{
+    width: 540px;
+}
+.title{
+    font-family: "Merriweather";
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 110%;
+}
+.hero_contant-center{
+    text-align: center;
+    line-height: 110%;
+}
+.hero_contant-end{
+    text-align: end;
+    margin-bottom: 23px;
+}
+.hero_img{
+    position: absolute;
+    right: 80px;
+    bottom: 0;
+    height: 540px;
+}
+.hero_circle{
+    position: absolute;
+    top: 0;
+    right: 260px;
+    opacity: 90%;
+    fill: #FAC229;
+}
+.hero_letters{
+    position: absolute;
+    top: 0;
+    right: 202px;
+    opacity: 20%;
+}
+.hero_contant-descr{
+    font-family: "Golos";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    text-align: center;
+    margin-bottom: 37px;
+}
+.button_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9999;
+}
+.button{
+    display: block;
+    font-family: "Golos";
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 0;
+    width: 263px;
+    border-radius: 66px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 130%;
+}
+.button_left{
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+.button_right{
+    color: #1f1f1f;
+    border: #1f1f1f solid 2px;
+}
+button{
+    cursor: pointer;
+}
